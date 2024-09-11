@@ -12,6 +12,16 @@
 //                            to the x.ll file.
 //  Options:
 //      --help   - Output information about command line switches
+//      -o <filename>              - Override output filename
+//      -f                         - Enable binary output on terminals
+//      --disable-output           - Don't output the .ll file
+//      --set-importing            - Set lazy loading to pretend to import a module
+//      --show-annotations         - Add informational comments to the .ll file
+//      --preserve-ll-uselistorder - Preserve use-list order when writing LLVM assembly
+//      --materialize-metadata     - Load module without materializing metadata, then
+//                                   materialize only the metadata
+//      --print-thinlto-index-only - Only read thinlto index and print the index as
+//                                   LLVM assembly.
 //
 //===----------------------------------------------------------------------===//
 
